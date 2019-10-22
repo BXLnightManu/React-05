@@ -12,7 +12,7 @@ const  DisplayEmployee = ({ employee }) => {
                 </li>
                 <li>E-mail : {employee.email}</li>
                 <li>
-                            Location : {employee.location.street},
+                            Location : {employee.location.street.number} {employee.location.street.name},
                             {employee.location.postcode}{' '}{employee.location.city}
                 </li>
             </ul>

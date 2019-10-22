@@ -41,7 +41,7 @@ class App extends Component {
   render() {
     return (
       <>
-        <GenerateEmployee selectEmployee={() => this.getEmployee()}  />
+        <GenerateEmployee selectEmployee={()=>this.getEmployee()}  />
         <DisplayEmployee  employee={this.state.employee}  />
       </>
     );
